@@ -1,0 +1,87 @@
+# depslib dependency file v1.0
+1500940311 source:c:\users\nitai\desktop\old rivals v1\main.cpp
+	<iostream>
+	<vector>
+	<SFML/Graphics.hpp>
+	"introState.h"
+
+1500509286 c:\users\nitai\desktop\old rivals v1\introstate.h
+	"SFML/Graphics.hpp"
+	"stateMachine.h"
+	"dataManager.h"
+	"menuState.h"
+
+1500733819 c:\users\nitai\desktop\old rivals v1\statemachine.h
+	"SFML/Graphics.hpp"
+	"SFML/Network.hpp"
+	"dataManager.h"
+
+1500778928 c:\users\nitai\desktop\old rivals v1\datamanager.h
+	"SFML/Graphics.hpp"
+	"SFML/Audio.hpp"
+
+1500509920 source:c:\users\nitai\desktop\old rivals v1\introstate.cpp
+	"introState.h"
+
+1500734011 c:\users\nitai\desktop\old rivals v1\menustate.h
+	"SFML/Graphics.hpp"
+	"SFML/Network.hpp"
+	"windows.h"
+	"stateMachine.h"
+	"button.h"
+	"dataManager.h"
+	"playState.h"
+
+1500516161 c:\users\nitai\desktop\old rivals v1\button.h
+	"SFML/Graphics.hpp"
+
+1500517555 source:c:\users\nitai\desktop\old rivals v1\button.cpp
+	"button.h"
+
+1500813826 source:c:\users\nitai\desktop\old rivals v1\menustate.cpp
+	"menuState.h"
+
+1500940365 c:\users\nitai\desktop\old rivals v1\playstate.h
+	"windows.h"
+	"stdio.h"
+	"stateMachine.h"
+	"player.h"
+	"movement.h"
+	"algorithm"
+	<iostream>
+
+1500818458 source:c:\users\nitai\desktop\old rivals v1\playstate.cpp
+	"playState.h"
+
+1500570471 source:c:\users\nitai\desktop\old rivals v1\animatedsprite.cpp
+	"AnimatedSprite.h"
+
+1500570499 c:\users\nitai\desktop\old rivals v1\animatedsprite.h
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/System/Vector2.hpp>
+	"Animation.h"
+
+1500570430 c:\users\nitai\desktop\old rivals v1\animation.h
+	<vector>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Texture.hpp>
+
+1500570430 source:c:\users\nitai\desktop\old rivals v1\animation.cpp
+	"Animation.h"
+
+1500696310 c:\users\nitai\desktop\old rivals v1\player.h
+	"SFML/Graphics.hpp"
+	"AnimatedSprite.h"
+	"dataManager.h"
+	"iostream"
+
+1500696401 source:c:\users\nitai\desktop\old rivals v1\player.cpp
+	"player.h"
+
+1500736817 c:\users\nitai\desktop\old rivals v1\movement.h
+	"SFML/Graphics.hpp"
+	"math.h"
+
